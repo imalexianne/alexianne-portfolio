@@ -14,8 +14,13 @@
 h1{
     color:darkblue;
 }
-
-
+#education{
+    font-style: oblique;
+}
+span{
+    font-style: italic;
+    font-size: large;
+}
 .header{
     text-align: center;
 }

@@ -1,14 +1,21 @@
 *{
-    margin-left:20px;
-    margin-right:20px;
-    background-color: slategray;
+    margin-left:40px;
+    margin-right:40px;
+}
+#section{
+    display:inline-flex;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQzv6wLZZ5WgjfXl1J95irI3Px_-SPLRJhPrYNJxgn05WqN2XXQ)
+}
+.me{
+    margin-top: 80px;
+    font-style: bold;
 }
 h1{
     color:darkblue;
 }
 img{
-height:150px;
-width:100px;
+height:200px;
+width:150px;
 }
 .header{
     text-align: center;
@@ -16,8 +23,19 @@ width:100px;
 .social{
     text-align:center;
 }
-@media screen and (min-width: 480px) {
+body{
+    background-color: darkgray;
+    color:darkblue;
+}
+@media screen and (min-width: 900px) {
     body {
-        background-color: slategray;
+        background-color: white;
         color: black;
+    }
+    image{
+        border-radius:80px;
+    }
+    footer{
+        margin-top: 10px;
+        text-align: right;
     }

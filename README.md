@@ -1,4 +1,4 @@
-# Project name: alexianne-portfolio
+# alexianne-portfolio
 #### By **IMANIRAKARAMA Alexianne**
 ## Description
 My alexianne-portfolio project,is about to describe myself and it  includes my name ,my picture, the projects I created ,my background and my current interests, hobbies and skills.About the languages and tools I used to create this project. I used HTML ,CSS and Markdown languages.

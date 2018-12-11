@@ -10,3 +10,14 @@ img{
 height:150px;
 width:100px;
 }
+.header{
+    text-align: center;
+}
+.social{
+    text-align:center;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: slategray;
+        color: darkblue;
+    }

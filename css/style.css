@@ -3,18 +3,21 @@
     margin-right:10px;
 }
 #section{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQzv6wLZZ5WgjfXl1J95irI3Px_-SPLRJhPrYNJxgn05WqN2XXQ);
+    background-color: grey;
+    /* background-ima<div class="header">ge: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQzv6wLZZ5WgjfXl1J95irI3Px_-SPLRJhPrYNJxgn05WqN2XXQ); */
     padding: 0px;
+    text-align:center; 
 }
 .me{
     font-style: bold;
     margin-left: 0px;
+    margin-right:300px; 
     text-align: center;
 }
 h1{
     color:darkblue;
 }
-#education{
+#AboutMe{
     font-style: oblique;
 }
 span{
@@ -29,7 +32,7 @@ span{
 }
 img{
     height:200px;
-    width:150px;
+    width:200px;
 }
 body{
     background-color: darkgray;
@@ -39,20 +42,21 @@ body{
     body {
         background-color: navajowhite;
         color: black;
+        text-align:center; 
     }
       #section{
-        display:inline-flex;
+        display:inline-block;
     }
     .me{
         margin-top: 80px;
        }
    }
-@media screen and (max-width: 900px) {
-    #section{
-      display:inline;
+@media scr
+    #secti
+      disp
     }
 }
-    image{
+    image{justify-content
         border-radius:80px;
     }
     footer{

@@ -1,25 +1,52 @@
-*{
-    margin-left:10px;
-    margin-right:10px;
+#bar{
+    background-image:url("https://codeinspiration.pro/wp-content/themes/theme_ci/img/ImageHero1.jpg");
+    background-size: 100% 100%;
+    height:1000px;
+    margin-bottom:10px;
+    color: aliceblue;
+    font-size:40px;
+    text-align: center;
+    padding-top:300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
 #section{
-    background-color: grey;
+  height:100%;
+  width:100%;
+  background-image:url(https://codeinspiration.pro/wp-content/themes/theme_ci/img/ImageHero1.jpg);
     /* background-ima<div class="header">ge: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQzv6wLZZ5WgjfXl1J95irI3Px_-SPLRJhPrYNJxgn05WqN2XXQ); */
-    padding: 0px;
-    text-align:center; 
+    
+    
+    
+
+  
+  background-color: #cccccc;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.me{
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:30%;
+  }
+  
+/* .me{
     font-style: bold;
     margin-left: 0px;
     margin-right:300px; 
     text-align: center;
-}
+} */
 h1{
     color:darkblue;
 }
-#AboutMe{
-    font-style: oblique;
-}
+
+
 span{
     font-style: italic;
     font-size: large;
@@ -30,10 +57,10 @@ span{
 .social{
     text-align:center;
 }
-img{
+/* img{
     height:200px;
     width:200px;
-}
+} */
 body{
     background-color: darkgray;
     color:darkblue;
@@ -51,16 +78,41 @@ body{
         margin-top: 80px;
        }
    }
-@media scr
-    #secti
-      disp
-    }
-}
-    image{justify-content
-        border-radius:80px;
-    }
+
     footer{
         margin-top: 10px;
         text-align:center;
         background-color: seagreen;
+    }
+    h3{
+        color:white;
+    }
+    nav{
+        height: 90px;
+        background-color:black;
+        text-align: left;
+        position: fixed;
+        top:5px;
+        width:100%;
+    }
+    nav ul{
+        padding-top:30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        
+        
+    }
+    
+    nav ul li a{
+        text-transform:uppercase;
+        padding: 0 50px 40px 50px ;
+        color:white;
+        text-decoration: none;
+        
+    }
+    
+    nav ul li a:hover{
+        color:red;
     }

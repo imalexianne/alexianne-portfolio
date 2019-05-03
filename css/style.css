@@ -2,48 +2,19 @@
     background-image:url("https://codeinspiration.pro/wp-content/themes/theme_ci/img/ImageHero1.jpg");
     background-size: 100% 100%;
     height:1000px;
-    margin-bottom:10px;
+    
     color: aliceblue;
     font-size:40px;
     text-align: center;
-    padding-top:300px;
+    /* padding-top:30px; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
-#section{
-  height:100%;
-  width:100%;
-  background-image:url(https://codeinspiration.pro/wp-content/themes/theme_ci/img/ImageHero1.jpg);
-    /* background-ima<div class="header">ge: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQzv6wLZZ5WgjfXl1J95irI3Px_-SPLRJhPrYNJxgn05WqN2XXQ); */
-    
-    
-    
 
-  
-  background-color: #cccccc;
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top:30%;
-  }
-  
-/* .me{
-    font-style: bold;
-    margin-left: 0px;
-    margin-right:300px; 
-    text-align: center;
-} */
+
 h1{
-    color:darkblue;
+    color:yellow;
 }
 
 
@@ -57,10 +28,7 @@ span{
 .social{
     text-align:center;
 }
-/* img{
-    height:200px;
-    width:200px;
-} */
+
 body{
     background-color: darkgray;
     color:darkblue;
@@ -88,15 +56,14 @@ body{
         color:white;
     }
     nav{
-        height: 90px;
+        height: 50px;
         background-color:black;
         text-align: left;
-        position: fixed;
-        top:5px;
+        position: fixed; 
         width:100%;
     }
     nav ul{
-        padding-top:30px;
+        padding-top:0px;
     }
     
     nav ul li{
@@ -106,7 +73,7 @@ body{
     }
     
     nav ul li a{
-        text-transform:uppercase;
+        
         padding: 0 50px 40px 50px ;
         color:white;
         text-decoration: none;
@@ -114,94 +81,45 @@ body{
     }
     
     nav ul li a:hover{
-        color:red;
+        color:burlywood;
     }
+    #home{
+        padding-top: 300px;
+    }
+    #projects{
+        padding-top: 20px;
+        background-color: black;
+        opacity:0.8;
+        
+    }
+   
+    #about{
+        padding-top: 20px;
+        margin-left: 25%;
+        margin-right: 18%;
+        background-color: grey;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
 
-
-
-    body{
-        background-color:rgb(28, 36, 75);
-       
     }
-    input[type=text]{
-        background-color:grey;
-        color:black;
-        padding: 20px;
-        width: 40%;
-        box-shadow:2px 2px 5px black;
-        margin: 20px;
+    #skills{
+        padding-top: 20px;
+        text-align: center;
+        background-color: darkslategrey;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 60px;
+        opacity:0.8;
     }
-    
-    #bigger{
-        height:160px;
-        background-color: rgb(7, 7, 41);
-        color:white;
-    }
-    
-    input[type=submit]{
-        background-color:black;
-        color: white;
-        padding-top:30px;
-        padding-bottom:30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 30px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-transform: uppercase;
-    }
-    
     #contact{
+        padding-top: 20px;
         color:white;
         background-color:black;
         opacity:0.7;
-        height: 900px;
+        height: 250px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
-        padding-top: 120px;
-    
     }
-    
-    #home{
-        background-image:url("https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-        background-size: 100% 100%;
-        height:1000px;
-        margin-bottom:10px;
-        color: aliceblue;
-        font-size:40px;
-        text-align: center;
-        padding-top:300px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    em{
-        /* color: cornflowerblue; */
-        /* font-family: 'Courgette', cursive; */
-    }
-    
-    #about>div>div{
-        /* background-color: dodgerblue; */
-        border-radius: 50%;
-        height: 130px;
-        width: 130px;
-         margin-left: 70px;
-         position:relative;
-         top:-50px;
-          
-       
-       
-    }
-    #about>div>h4{
-        padding-top: 54px;
-        text-align: center;
-    }
-    
-    .flex1{ 
-        display: inline-flex;
-        justify-content: space-around;
-        margin-top: 200px;
-    
-    }
-    
+
     #about>p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
@@ -209,126 +127,12 @@ body{
         display:inline-flex;
         justify-content: space-around;
         position:relative;
-        top:90px;
-        left:-110px;
+        top:70px;
+        /* left:-110px; */
     
         
         
     }
+
     
-    #portfolio h1,#about h1, #skills h1{
-        text-align: center;
-        margin-top:10px;
-        padding-top: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 60px;
-    }
-    
-    #contact h1{
-        text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 60px;
-        padding-top: 20px;
-        
-    }
-    
-    .projects{
-        display:flex;
-        flex-direction:row;
-        justify-content: space-around;
-        padding: 1px;
-        font-size:24px;
-        color:rgb(2, 46, 63);
-    }
-    .description{
-        display:flex;
-        flex-direction:row;
-        justify-content: space-around;
-        padding: 1px;
-    }
-    .links{
-        display:flex;
-        flex-direction:row;
-        justify-content: space-around;
-        padding: 1px;
-        text-decoration-line:none;
-          
-    }
-    .links a{
-        text-decoration-line:none;
-        padding:20px;
-        opacity:0.7;
-        background-color:rgba(132, 230, 230, 0.637);
-        margin-top:100px;
-        color: rgba(17, 22, 22, 0.637);
-    }
-    .links a:hover{
-        background-color:#5088f0;
-    }
-    
-    .description{
-        margin-left:100px;
-        margin-top: 100px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #last,#two{
-        text-align: center;
-        font-size: 22px;
-        margin-top: 160px;
-        
-        
-    }
-    
-    form{
-        font-style: italic;
-    }
-    
-    img{
-        /* height:300px; */
-        /* border-radius:50%; */
-        /* float:left; */
-    }
-    nav{
-        height: 90px;
-        background-color:black;
-        text-align: left;
-        position: fixed;
-        top:5px;
-        width:100%;
-    }
-    nav ul{
-        padding-top:30px;
-    }
-    
-    nav ul li{
-        display: inline-block;
-        
-        
-    }
-    
-    nav ul li a{
-        text-transform:uppercase;
-        padding: 0 50px 40px 50px ;
-        color:white;
-        text-decoration: none;
-        
-    }
-    
-    nav ul li a:hover{
-        color:red;
-    }
-    #about,#portfolio,#skills{
-        background-color: white;
-        height: 100%;
-        
-    }
-    
-    #abo{
-        margin-top: 10%;
-    }
-    
-    
-        
-    
-    
+

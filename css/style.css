@@ -87,7 +87,7 @@ body{
         padding-top: 300px;
     }
     #projects{
-        padding-top: 20px;
+        padding-top: 80px;
         background-color: black;
         opacity:0.8;
         
@@ -95,16 +95,16 @@ body{
    
     #about{
         padding-top: 20px;
-        margin-left: 25%;
-        margin-right: 18%;
+        /* margin-left: 20%; */
+        /* margin-right: 18%; */
         background-color: grey;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
 
     }
     #skills{
         padding-top: 20px;
-        text-align: center;
+        /* text-align: center; */
         background-color: darkslategrey;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 60px;
